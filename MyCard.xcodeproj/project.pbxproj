@@ -11,8 +11,8 @@
 		5661ADD02A801B6900EBAAA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661ADCF2A801B6900EBAAA0 /* ContentView.swift */; };
 		5661ADD22A801B6A00EBAAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5661ADD12A801B6A00EBAAA0 /* Assets.xcassets */; };
 		5661ADD52A801B6A00EBAAA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5661ADD42A801B6A00EBAAA0 /* Preview Assets.xcassets */; };
-		5661ADDD2A801DC700EBAAA0 /* Caveat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5661ADDC2A801DC700EBAAA0 /* Caveat-VariableFont_wght.ttf */; };
 		5661ADDF2A80211900EBAAA0 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661ADDE2A80211900EBAAA0 /* InfoView.swift */; };
+		5661ADE22A803DC700EBAAA0 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5661ADE12A803DC700EBAAA0 /* Lobster-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +21,9 @@
 		5661ADCF2A801B6900EBAAA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5661ADD12A801B6A00EBAAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5661ADD42A801B6A00EBAAA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5661ADDC2A801DC700EBAAA0 /* Caveat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		5661ADDE2A80211900EBAAA0 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		5661ADE02A803CB500EBAAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5661ADE12A803DC700EBAAA0 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		5661ADCC2A801B6900EBAAA0 /* MyCard */ = {
 			isa = PBXGroup;
 			children = (
+				5661ADE02A803CB500EBAAA0 /* Info.plist */,
 				5661ADDB2A801D4000EBAAA0 /* font */,
 				5661ADCD2A801B6900EBAAA0 /* MyCardApp.swift */,
 				5661ADCF2A801B6900EBAAA0 /* ContentView.swift */,
@@ -76,7 +78,7 @@
 		5661ADDB2A801D4000EBAAA0 /* font */ = {
 			isa = PBXGroup;
 			children = (
-				5661ADDC2A801DC700EBAAA0 /* Caveat-VariableFont_wght.ttf */,
+				5661ADE12A803DC700EBAAA0 /* Lobster-Regular.ttf */,
 			);
 			path = font;
 			sourceTree = "<group>";
@@ -140,8 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5661ADD52A801B6A00EBAAA0 /* Preview Assets.xcassets in Resources */,
+				5661ADE22A803DC700EBAAA0 /* Lobster-Regular.ttf in Resources */,
 				5661ADD22A801B6A00EBAAA0 /* Assets.xcassets in Resources */,
-				5661ADDD2A801DC700EBAAA0 /* Caveat-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +288,7 @@
 				DEVELOPMENT_TEAM = JHQPAV7RK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,6 +318,7 @@
 				DEVELOPMENT_TEAM = JHQPAV7RK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

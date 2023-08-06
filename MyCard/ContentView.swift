@@ -23,7 +23,7 @@ struct ContentView: View {
                         Circle().stroke(Color.white, lineWidth: 5)
                 )
                 Text("Mehrnoush Abdinian")
-                    .font(Font.custom("Caveat-VariableFont_wght", size: 40))
+                    .font(Font.custom("Lobster-Regular", size: 40))
                     .bold()
                     .foregroundColor(.white)
                 Text("iOS Developer")
