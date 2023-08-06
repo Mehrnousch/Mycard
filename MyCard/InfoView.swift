@@ -17,7 +17,7 @@ struct InfoView: View {
             .frame(height: 50)
             .overlay(HStack {
                 Image(systemName: imageName)
-                    .foregroundColor(.green)
+                    .foregroundColor(.accentColor)
                 Text(text)
                     .foregroundColor(.black)
                 //This line below is required if you want the app to display correctly in dark mode.
